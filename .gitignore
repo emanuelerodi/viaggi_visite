@@ -23,3 +23,27 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+# File temporanei e di log
+*.tmp
+*.log
+
+# File di configurazione con dati riservati
+.env
+.env.*
+
+# Database SQLite locali
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# Regole specifiche per Visual Studio Code
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.code-workspace
+.history/
